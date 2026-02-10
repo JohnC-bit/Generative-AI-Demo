@@ -45,7 +45,8 @@ def main():
         w4 = w4 - lr*d_Error_y_hat*w6*x2
 
         if(i%3 == 0):
-            # print("Loss = ",loss)
+            print("Loss = ",loss)
+            print("Y = ", y_hat)
             print("w1 = ", w1)
             losses.append(loss)
             sumw1.append(w1)
